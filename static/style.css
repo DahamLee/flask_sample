@@ -1,0 +1,10 @@
+body {
+    background: #008000;
+    font-size: 14px;
+}
+
+div {
+    color: white;
+    font-style: italic;
+    font-size: large;
+}

@@ -1,0 +1,18 @@
+<!-- jinja2 에서 사용할 수 있는 전역객체
+"""
+config: 현재 어플리케이션에 등록된 설정 객체 (flask.config)
+request: 현재 요청된 객체(flask.request)
+session: 현재 유지되고 있는 세션 객체(flask.session)
+g: 전역변수로 사용되는 요처오가 연결된 전역 객체(flask.g)
+url_for:
+get_flashed_messages:
+"""
+-->
+
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <div>파이썬 버젼은 {{ version }}</div>
+
+{% endblock %}
